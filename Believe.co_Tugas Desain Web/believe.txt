@@ -1,0 +1,50 @@
+<section class="activities">
+    <div class="men">
+        <h3>Men</h3>
+    </div>
+
+    <div class="women">
+        <h3>Women</h3>
+    </div>
+</section>
+
+<section class="gallery" id="gallery">
+    <h2>Gallery</h2>
+    <img src="https://source.unsplash.com/random/1500x1000" alt="">
+    <img src="https://source.unsplash.com/random/1501x1020" alt="">
+    <img src="https://source.unsplash.com/random/1502x1003" alt="">
+    <img src="https://source.unsplash.com/random/1550x1030" alt="">
+    <img src="https://source.unsplash.com/random/1600x1900" alt="">
+    <img src="https://source.unsplash.com/random/1505x1880" alt="">
+    <img src="https://source.unsplash.com/random/1205x1780" alt="">
+    <img src="https://source.unsplash.com/random/1105x1890" alt="">
+    <img src="https://source.unsplash.com/random/1005x1980" alt="">
+    <img src="https://source.unsplash.com/random/1535x1840" alt="">
+</section>
+
+.men{
+    background-image: url(/img/casualMen.png);
+    background-size: auto;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    height: 450px;
+    cursor: pointer;
+}
+
+.men :hover{
+    filter: brightness(50%);
+}
+
+.women{
+    background-image: url(/img/casualWomen.png);
+    background-size: auto;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    height: 450px;
+}
